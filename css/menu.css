@@ -42,7 +42,7 @@ nav.menu-desk li{
 /*configuração da logo*/
 .logo{
     float:left;
-    padding-left: 10%;  
+    padding-left: 3%;  
 }
 .logo img{
     height: 150px;
@@ -61,7 +61,7 @@ nav.menu-desk li{
     text-align: center;
 }
 .main-banner h2{
-    color:	#000000;
+    color:#000000;
     font-size: 3em;
     font-family: 'Poppins', 'sans-serif';
 
