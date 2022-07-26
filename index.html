@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,56 +7,59 @@
     <meta name="author" content="DJ-desenvolvedora Junior">
     <meta name="description" content="Transportadora,Fretes em geral">
     <meta name="keywords" content="Transportes Express,transportes Express,fretes, frete, mudança, locação transportadora, logistica transportadora, transportadora logistica">
-
+    
     <!--link icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--linkagem-->
+    <link rel="stylesheet" href="carossel.css">
+    <link rel="stylesheet" href="css/style.css">
     
-    <!--link text fonts-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-    </style>
-    
-    <!--linkagem css-->
-        <link rel="stylesheet" type="text/css" href="css/menu.css">
-        <link rel="stylesheet" type="text/css" href="css/button.css">
-        <link rel="stylesheet" type="text/css" href="css/responsivo.css">
-        
-    <title>Transportes Express</title>
-
+    <title>TRANSPORTADO EXPRESS</title>
 </head>
-
 <body>
+
     <header>
-        <!----Menu---->
+      <!--menu-->
         <div class="container">
-            <div class="logo">
-                <img src="img/logo.png" alt="logo da imagen">
-            </div>
-            <nav class="menu-desk">
-                <ul>
-                    <li> <button class="button-1" role="button"><span class="text">button-1</span></button></li>
-
-                    <li><button class="button-1" role="button"><span class="text">button-1</span></button></li>
-
-                    <li><button class="button-1" role="button"><span class="text">button-1</span></button></li>
-                </ul>
-            </nav>
-            <div class="resset"></div>
-        </div>
+          <div class="logo">
+            <img src="img/logo.png" alt="logo da empresa">
+          </div>
+          <nav class="menu">
+              <ul>
+                  <li class="selected"><a href="#"> home</a></li>
+                  <li><a href="#"> home</a></li>
+              </ul>
+          </nav>
+          <div class="clear"></div>
+        </div>  
     </header>
-    <section class="main-banner">
-        <div class="overley"></div>
-        <div class="container">
-            <h2>Transportadora Express</h2>
-            <p>
-                Nossa empresa se responsabiliza pela qualidade no prazo das entregas
-                sempre visando o bem estar da encomenda e de nossos clientes toda
-                nossa equipe é devidamente treinada e capacitada para enfrentar
-                qualquer problema aptos a levar até você o seu pedido livre de preucupações.
-            </p>
+    <!--carrossel-->
+    <section>
+        <div class="wrapper">
+          <div class="carousel">
+
+              <div class="inner">
+
+                  <div class="slide active">
+                      <h1>Entrega Rápida</h1>
+                  </div>
+                  <div class="slide">
+                    <h1>Funcionarios Capacitados</h1>
+                  </div>
+                  <div class="slide">
+                      <h1>Por todo território nacional</h1>
+                  </div> 
+
+              </div>
+
+              <div class="arrow arrow-left"></div>
+              <div class="arrow arrow-right"></div>
+          </div>
+
         </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Js/interação.js"></script>
     </section>
 
 </body>
-
 </html>
