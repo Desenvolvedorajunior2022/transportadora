@@ -209,7 +209,7 @@ h1{
 }
 
 .slide:nth-child(1){
-	background-image:url("img/banner3.jpg");
+	background-image:url(./img/banner3.jpg);
  }
 
 .slide:nth-child(2){
