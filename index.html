@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="DJ-desenvolvedora Junior">
-    <meta name="description" content="Transportadora,Fretes em geral">
-    <meta name="keywords" content="Transportes Express,transportes Express,fretes, frete, mudança, locação transportadora, logistica transportadora, transportadora logistica">
-    
-    <!--link icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--linkagem-->
-    <link rel="stylesheet" href="carossel.css">
-    <link rel="stylesheet" href="css/menu.css">
-    
-    <title>TRANSPORTADO EXPRESS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="DJ-desenvolvedora Junior">
+  <meta name="description" content="Transportadora,Fretes em geral">
+  <meta name="keywords"
+    content="Transportes Express,transportes Express,fretes, frete, mudança, locação transportadora, logistica transportadora, transportadora logistica">
+
+  <!--link icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--linkagem-->
+  <link rel="stylesheet" href="carossel.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="Js/botoes.js">
+
+  <title>TRANSPORTADO EXPRESS</title>
 </head>
+
 <body>
+  <!--menu-->
+  <header>
+    <nav class="nav-bar">
+      <!--logo-->
+      <div class="logo">
+        <img src="img/logo.png" alt="logo da empresa">
+      </div>
 
-    <header>
-      <!--menu-->
-        <div class="container">
-          <div class="logo">
-            <img src="img/logo.png" alt="logo da empresa">
+      <!--opções do menu-->
+      <nav class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+        </ul>
+      </nav>
+
+      <!--botão do frete-->
+      <div class="frete-button">
+        <button><a href="#">fazer pedido</a></button>
+      </div>
+
+      <!--icone mobile menu-->
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="img/icon/menu/icon.png" alt="icone do menu"></button>
+      </div>
+    </nav>
+
+    <!--menu pra mobile-->
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+      </ul>
+
+      <div class="frete-button">
+        <button><a href="#">fazer pedido</a></button>
+      </div>
+    </div>
+  </header>
+
+  <!--carrossel-->
+  <section>
+    <div class="wrapper">
+      <div class="carousel">
+        <div class="inner">
+          <div class="slide active">
+            <h1>Entrega Rápida</h1>
           </div>
-          <nav class="menu">
-              <ul>
-                  <li><a href="#"> home</a></li>
-                  <li><a href="#"> home</a></li>
-              </ul>
-          </nav>
-          <div class="clear"></div>
-        </div>  
-    </header>
-    <!--carrossel-->
-    <section>
-        <div class="wrapper">
-          <div class="carousel">
-
-              <div class="inner">
-
-                  <div class="slide active">
-                      <h1>Entrega Rápida</h1>
-                  </div>
-                  <div class="slide">
-                    <h1>Funcionarios Capacitados</h1>
-                  </div>
-                  <div class="slide">
-                      <h1>Por todo território nacional</h1>
-                  </div> 
-
-              </div>
-
-              <div class="arrow arrow-left"></div>
-              <div class="arrow arrow-right"></div>
+          <div class="slide">
+            <h1>Funcionarios Capacitados</h1>
           </div>
-
+          <div class="slide">
+            <h1>Por todo território nacional</h1>
+          </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="Js/interação.js"></script>
-    </section>
+        <div class="arrow arrow-left"></div>
+        <div class="arrow arrow-right"></div>
+      </div>
+    </div>
+    <!--importação das bibliotecas-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Js/interação.js"></script>
+    <script src="Js/botoes.js"></script>
+  </section>
 
 </body>
+
 </html>

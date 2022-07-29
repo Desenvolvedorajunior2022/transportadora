@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>botoes css</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <!--logo-->
+            <div class="logo">
+                <h1>logo</h1>
+            </div>
+
+            <!--opções do menu-->
+            <nav class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                </ul>
+            </nav>
+
+            <!--botão do frete-->
+            <div class="frete-button">
+                <button><a href="#">peça seu frete</a></button>
+            </div>
+
+            <!--icone mobile menu-->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="icon.png" alt="icone do menu"></button>
+            </div>
+        </nav>
+
+        <!--menu pra mobile-->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+            </ul>
+
+            <div class="frete-button">
+                <button><a href="#">peça seu frete</a></button>
+            </div>
+        </div>
+    </header>
+    <script src="botoes.js"></script>
+</body>
+</html>
